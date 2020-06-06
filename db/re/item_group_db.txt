@@ -2,3 +2,463 @@
 //
 // Structure of Database:
 // GroupID,ItemID,Rate{,Amount,Random,isAnnounced,Duration,GUID,isBound,isNamed}
+
+// Shadow Equipments ( For ReUniteRO Purposes )
+
+// Gemstone Shadow Box      -14704
+// Grid Shadow Box          -14726
+// Heal Shadow Box          -14727
+// Hiding Shadow Box        -14728
+// Cloaking Shadow Box      -14729
+// Teleport Shadow Box      -14731
+// Steal Shadow Box         -14732
+// Shadow Box               -17292
+// Shadow Physical Package  -17293
+// Shadow Magical Package   -17294
+// Bearer's Shadow Box      -22813
+
+
+// T1/T2/Promotion/Physical/Magical Early stat Shadow Equipments (Total 24-6)
+
+IG_Shadow_0,24000,1     //Shadow Armor (Tier 1)
+IG_Shadow_0,24001,1     //Shadow Gauntlets (Tier 1)
+IG_Shadow_0,24002,1     //Shadow Shield (Tier 1)
+IG_Shadow_0,24003,1     //Shadow Shoes (Tier 1)
+IG_Shadow_0,24004,1     //Shadow Ring (Tier 1)
+IG_Shadow_0,24005,1     //Shadow Pendant (Tier 1)
+IG_Shadow_0,24006,1     //Shadow Armor (Tier 2)
+IG_Shadow_0,24007,1     //Shadow Gauntlets (Tier 2)
+IG_Shadow_0,24008,1     //Shadow Shield (Tier 2)
+IG_Shadow_0,24009,1     //Shadow Shoes (Tier 2)
+IG_Shadow_0,24010,1     //Shadow Ring (Tier 2)
+IG_Shadow_0,24011,1     //Shadow Pendant (Tier 2)
+IG_Shadow_0,24012,1     //Promotion Shadow Weapon
+IG_Shadow_0,24013,1     //Promotion Shadow Armor
+IG_Shadow_0,24014,1     //Promotion Shadow Shoes
+IG_Shadow_0,24015,1     //Promotion Shadow Shield
+IG_Shadow_0,24016,1     //Promotion Shadow Earring
+IG_Shadow_0,24017,1     //Promotion Shadow Pendant
+IG_Shadow_0,24018,1     //Physical Earring (Shadow)               -Shadow Box/Shadow Physical Package
+IG_Shadow_0,24019,1     //Physical Weapon (Shadow)                -Shadow Box/Shadow Physical Package
+IG_Shadow_0,24020,1     //Physical Pendant (Shadow)               -Shadow Box/Shadow Physical Package
+IG_Shadow_0,24021,1     //Magical Earring (Shadow)                -Shadow Box/Shadow Magical Package
+IG_Shadow_0,24022,1     //Magical Weapon (Shadow)                 -Shadow Box/Shadow Magical Package
+IG_Shadow_0,24023,1     //Magical Pencil (Shadow)                 -Shadow Box/Shadow Magical Package
+
+
+// Class Based Shadow Equipments (Total 90)
+
+IG_Shadow_1,24246,1     //Swordman Shadow Earring
+IG_Shadow_1,24247,1     //Merchant Shadow Earring
+IG_Shadow_1,24248,1     //Acolyte Shadow Earring
+IG_Shadow_1,24249,1     //Magician Shadow Earring
+IG_Shadow_1,24250,1     //Swordman Shadow Pendant
+IG_Shadow_1,24251,1     //Merchant Shadow Pendant
+IG_Shadow_1,24252,1     //Acolyte Shadow Pendant
+IG_Shadow_1,24253,1     //Thief Shadow Pendant
+IG_Shadow_1,24254,1     //Magician Shadow Pendant
+IG_Shadow_1,24255,1     //Archer Shadow Pendant
+IG_Shadow_1,24256,1     //Knight Shadow Shoes
+IG_Shadow_1,24257,1     //Crusader Shadow Shoes
+IG_Shadow_1,24258,1     //Blacksmith Shadow Shoes
+IG_Shadow_1,24259,1     //Alchemist Shadow Shoes
+IG_Shadow_1,24260,1     //Priest Shadow Shoes
+IG_Shadow_1,24261,1     //Monk Shadow Shoes
+IG_Shadow_1,24262,1     //Assassin Shadow Shoes
+IG_Shadow_1,24263,1     //Rogue Shadow Shoes
+IG_Shadow_1,24264,1     //Wizard Shadow Shoes
+IG_Shadow_1,24265,1     //Sage Shadow Shoes
+IG_Shadow_1,24266,1     //Hunter Shadow Shoes
+IG_Shadow_1,24267,1     //Bard Shadow Shoes
+IG_Shadow_1,24268,1     //Dancer Shadow Shoes
+IG_Shadow_1,24269,1     //Knight Shadow Armor
+IG_Shadow_1,24270,1     //Crusader Shadow Armor
+IG_Shadow_1,24271,1     //Blacksmith Shadow Armor
+IG_Shadow_1,24272,1     //Alchemist Shadow Armor
+IG_Shadow_1,24273,1     //Priest Shadow Armor
+IG_Shadow_1,24274,1     //Monk Shadow Armor
+IG_Shadow_1,24275,1     //Assassin Shadow Armor
+IG_Shadow_1,24276,1     //Rogue Shadow Armor
+IG_Shadow_1,24277,1     //Wizard Shadow Armor
+IG_Shadow_1,24278,1     //Sage Shadow Armor
+IG_Shadow_1,24279,1     //Hunter Shadow Armor
+IG_Shadow_1,24280,1     //Bard Shadow Armor
+IG_Shadow_1,24281,1     //Dancer Shadow Armor
+IG_Shadow_1,24282,1     //Super Novice Shadow Weapon
+IG_Shadow_1,24283,1     //Gunslinger Shadow Weapon
+IG_Shadow_1,24284,1     //Taekwondo Shadow Weapon
+IG_Shadow_1,24285,1     //Ninja Shadow Weapon
+IG_Shadow_1,24286,1     //Doram Magical Shadow Weapon
+IG_Shadow_1,24287,1     //Doram Physical Shadow Weapon
+IG_Shadow_1,24288,1     //Rune Knight Shadow Weapon
+IG_Shadow_1,24289,1     //Royal Guard Shadow Weapon
+IG_Shadow_1,24290,1     //Mechanic Shadow Weapon
+IG_Shadow_1,24291,1     //Genetic Shadow Weapon
+IG_Shadow_1,24292,1     //Arcbishop Shadow Weapon
+IG_Shadow_1,24293,1     //Sura Shadow Weapon
+IG_Shadow_1,24294,1     //Guillotine Cross Shadow Weapon
+IG_Shadow_1,24295,1     //Shadow Chaser Shadow Weapon
+IG_Shadow_1,24296,1     //Warlock Shadow Weapon
+IG_Shadow_1,24297,1     //Sorcerer Shadow Weapon
+IG_Shadow_1,24298,1     //Ranger Shadow Weapon
+IG_Shadow_1,24299,1     //Maestro Shadow Weapon
+IG_Shadow_1,24300,1     //Wanderer Shadow Weapon
+IG_Shadow_1,24301,1     //Rune Knight Shadow Shield
+IG_Shadow_1,24302,1     //Royal Guard Shadow Shield
+IG_Shadow_1,24303,1     //Mechanic Shadow Shield
+IG_Shadow_1,24304,1     //Genetic Shadow Shield
+IG_Shadow_1,24305,1     //Archbishop Shadow Shield
+IG_Shadow_1,24306,1     //Sura Shadow Shield
+IG_Shadow_1,24307,1     //Guillotine Cross Shadow Shield
+IG_Shadow_1,24308,1     //Shadow Chaser Shadow Shield
+IG_Shadow_1,24309,1     //Warlock Shadow Shield
+IG_Shadow_1,24310,1     //Sorcerer Shadow Shield
+IG_Shadow_1,24311,1     //Ranger Shadow Shield
+IG_Shadow_1,24312,1     //Minstrel Shadow Shield
+IG_Shadow_1,24313,1     //Wanderer Shadow Shield
+IG_Shadow_1,24314,1     //Ninja Shadow Shield
+IG_Shadow_1,24315,1     //Taekwon Shadow Shield
+IG_Shadow_1,24316,1     //Doram Physical Shadow Shield
+IG_Shadow_1,24317,1     //Doram Magical Shadow Shield
+IG_Shadow_1,24318,1     //Super Novice Shadow Shield
+IG_Shadow_1,24319,1     //Gunslinger Shadow Shield
+
+IG_Shadow_1,24402,1     //Rebellion Shadow Armor
+IG_Shadow_1,24403,1     //Kagerou Shadow Armor
+IG_Shadow_1,24404,1     //Oboro Shadow Armor
+IG_Shadow_1,24405,1     //Rebellion Shadow Shoes
+IG_Shadow_1,24406,1     //Kagerou Shadow Shoes
+IG_Shadow_1,24407,1     //Oboro Shadow Shoes
+IG_Shadow_1,24408,1     //Doram Physical Shadow Armor
+IG_Shadow_1,24409,1     //Doram Physical Shadow Shoes
+IG_Shadow_1,24410,1     //Doram Magical Shadow Armor
+IG_Shadow_1,24411,1     //Doram Magical Shadow Shoes
+IG_Shadow_1,24412,1     //Star Emperor Shadow Armor
+IG_Shadow_1,24413,1     //Star Emperor Shadow Shoes
+IG_Shadow_1,24414,1     //Soul Reaper Shadow Armor
+IG_Shadow_1,24415,1     //Soul Reaper Shadow Shoes
+
+IG_Shadow_1,28391,1     //Thief Shadow Earring
+IG_Shadow_1,28392,1     //Archer Shadow Earring
+
+
+// Miscellaneous Shadow Equipment (Part 1 - Total 222-51)
+
+IG_Shadow_2,24024,1     //Breeze Armor (Shadow)                   -Shadow Box/Shadow Physical Package/Shadow Magical Package
+IG_Shadow_2,24025,1     //Champion Shoes (Shadow)                 -Shadow Box/Shadow Physical Package/Shadow Magical Package
+IG_Shadow_2,24026,1     //Athena Shield (Shadow)                  -Shadow Box/Shadow Physical Package/Shadow Magical Package
+IG_Shadow_2,24027,1     //Immune Shadow Armor
+IG_Shadow_2,24028,1     //Hard Shadow Armor
+IG_Shadow_2,24029,1     //Ancient Shadow Armor
+IG_Shadow_2,24030,1     //Critital Shadow Armor
+IG_Shadow_2,24031,1     //Kingbird's Shadow Weapon
+IG_Shadow_2,24032,1     //Critical Hit Shadow Weapon
+IG_Shadow_2,24033,1     //Healing Shadow Weapon
+IG_Shadow_2,24034,1     //Lucky Shadow Weapon
+IG_Shadow_2,24035,1     //Power Shadow Earring
+IG_Shadow_2,24036,1     //Intelligent Shadow Pendant
+IG_Shadow_2,24037,1     //Dexterous Shadow Armor
+IG_Shadow_2,24038,1     //Vital Shadow Shoes
+IG_Shadow_2,24039,1     //Athletic Shadow Shield
+IG_Shadow_2,24040,1     //Lucky Shadow Armor
+IG_Shadow_2,24041,1     //Power Shadow Pendant
+IG_Shadow_2,24042,1     //Intelligent Shadow Earring
+IG_Shadow_2,24043,1     //Dexterous Shadow Weapon
+IG_Shadow_2,24044,1     //Vital Shadow Shield
+IG_Shadow_2,24045,1     //Athletic Shadow Shoes
+IG_Shadow_2,24046,1     //Resist Spell Power Pendant (Shadow)
+IG_Shadow_2,24047,1     //Rapid Pendant (Shadow)
+IG_Shadow_2,24048,1     //Caster Pendant (Shadow)
+IG_Shadow_2,24049,1     //Hard Earring (Shadow)
+IG_Shadow_2,24050,1     //Wise Earring (Shadow)
+IG_Shadow_2,24051,1     //Athena Earring (Shadow)
+IG_Shadow_2,24052,1     //Cranial Shield (Shadow)
+IG_Shadow_2,24053,1     //Safeguard Shield (Shadow)
+IG_Shadow_2,24054,1     //Brutal Shield (Shadow)
+IG_Shadow_2,24055,1     //Gargantua Shield (Shadow)
+IG_Shadow_2,24056,1     //Homers Shield (Shadow)
+IG_Shadow_2,24057,1     //Dragoon Shield (Shadow)
+IG_Shadow_2,24058,1     //Satanic Shield (Shadow)
+IG_Shadow_2,24059,1     //Flameguard Shield (Shadow)
+IG_Shadow_2,24060,1     //Requiem Shield (Shadow)
+IG_Shadow_2,24061,1     //Cadi Shield (Shadow)
+IG_Shadow_2,24062,1     //Bloody Shoes (Shadow)
+IG_Shadow_2,24063,1     //Liberation Shoes (Shadow)
+IG_Shadow_2,24064,1     //Chemical Shoes (Shadow)
+IG_Shadow_2,24065,1     //Clamorous Shoes (Shadow)
+IG_Shadow_2,24066,1     //Insecticide Shoes (Shadow)
+IG_Shadow_2,24067,1     //Fisher Shoes (Shadow)
+IG_Shadow_2,24068,1     //Seraphim Shoes (Shadow)
+IG_Shadow_2,24069,1     //Beholder Shoes (Shadow)
+IG_Shadow_2,24070,1     //Divine Shoes (Shadow)
+IG_Shadow_2,24071,1     //Dragoon Shoes (Shadow)
+IG_Shadow_2,24072,1     //Large Shadow Armor
+IG_Shadow_2,24073,1     //Medium Shadow Armor
+IG_Shadow_2,24074,1     //Small Shadow Armor
+IG_Shadow_2,24075,1     //Large Shadow Weapon
+IG_Shadow_2,24076,1     //Medium Shadow Weapon
+IG_Shadow_2,24077,1     //Small Shadow Weapon
+IG_Shadow_2,24078,1     //Spiritual Shadow Weapon
+IG_Shadow_2,24079,1     //Spiritual Shadow Earring
+IG_Shadow_2,24080,1     //Spiritual Shadow Pendant
+IG_Shadow_2,24081,1     //Malicious Shas Shadow Armor
+IG_Shadow_2,24082,1     //Malicious Shas Shadow Shoes
+IG_Shadow_2,24083,1     //Malicious Shas Shadow Shield
+IG_Shadow_2,24084,1     //Gemstone Shadow Armor                   -Gemstone Shadow Box
+IG_Shadow_2,24085,1     //Gemstone Shadow Shoes                   -Gemstone Shadow Box
+IG_Shadow_2,24086,1     //Gemstone Shadow Shield                  -Gemstone Shadow Box
+IG_Shadow_2,24087,1     //Gemstone Shadow Weapon                  -Gemstone Shadow Box
+IG_Shadow_2,24088,1     //Gemstone Shadow Earring                 -Gemstone Shadow Box
+IG_Shadow_2,24089,1     //Gemstone Shadow Pendant                 -Gemstone Shadow Box
+IG_Shadow_2,24090,1     //Stability Shadow Shield
+IG_Shadow_2,24091,1     //Harrods Plaster Shadow Armor
+IG_Shadow_2,24092,1     //Harrods Plaster Shadow Shoes
+IG_Shadow_2,24093,1     //Insomnia Shadow Armor
+IG_Shadow_2,24094,1     //Insomnia Shadow Shoes
+IG_Shadow_2,24095,1     //Peerless Shadow Armor
+IG_Shadow_2,24096,1     //Peerless Shadow Shoes
+IG_Shadow_2,24097,1     //Andre Shadow Armor
+IG_Shadow_2,24098,1     //Andre Shadow Shoes
+IG_Shadow_2,24099,1     //Unfreezing Shadow Weapon
+IG_Shadow_2,24100,1     //Unfreezing Shadow Earring
+IG_Shadow_2,24101,1     //Unfreezing Shadow Pendant
+IG_Shadow_2,24102,1     //Vitality Shadow Earring
+IG_Shadow_2,24103,1     //Vitality Shadow Pendant
+IG_Shadow_2,24104,1     //Neutral Shadow Weapon
+IG_Shadow_2,24105,1     //Neutral Shadow Earring
+IG_Shadow_2,24106,1     //Neutral Shadow Pendant
+IG_Shadow_2,24107,1     //Frozen Curse Shadow Earring
+IG_Shadow_2,24108,1     //Frozen Curse Shadow Pendant
+IG_Shadow_2,24109,1     //Caster Shadow Earrings
+IG_Shadow_2,24110,1     //Caster Shadow Weapon
+IG_Shadow_2,24111,1     //Spellflow Shadow Shoes
+IG_Shadow_2,24112,1     //Spellflow Shadow Armor
+IG_Shadow_2,24113,1     //Spellflow Shadow Shield
+IG_Shadow_2,24114,1     //Grid Shadow Armor                      -Grid Shadow Box
+IG_Shadow_2,24115,1     //Grid Shadow Shoes                      -Grid Shadow Box
+IG_Shadow_2,24116,1     //Grid Shadow Shield                     -Grid Shadow Box
+IG_Shadow_2,24117,1     //Grid Shadow Weapon                     -Grid Shadow Box
+IG_Shadow_2,24118,1     //Grid Shadow Earring                    -Grid Shadow Box
+IG_Shadow_2,24119,1     //Grid Shadow Pendant                    -Grid Shadow Box
+IG_Shadow_2,24120,1     //Heal Shadow Armor                      -Heal Shadow Box 
+IG_Shadow_2,24121,1     //Heal Shadow Shoes                      -Heal Shadow Box 
+IG_Shadow_2,24122,1     //Heal Shadow Shield                     -Heal Shadow Box 
+IG_Shadow_2,24123,1     //Heal Shadow Weapon                     -Heal Shadow Box 
+IG_Shadow_2,24124,1     //Heal Shadow Earring                    -Heal Shadow Box 
+IG_Shadow_2,24125,1     //Heal Shadow Pendant                    -Heal Shadow Box 
+IG_Shadow_2,24126,1     //Hiding Shadow Armor                    -Hiding Shadow Box
+IG_Shadow_2,24127,1     //Hiding Shadow Shoes                    -Hiding Shadow Box
+IG_Shadow_2,24128,1     //Hiding Shadow Shield                   -Hiding Shadow Box
+IG_Shadow_2,24129,1     //Hiding Shadow Weapon                   -Hiding Shadow Box
+IG_Shadow_2,24130,1     //Hiding Shadow Earring                  -Hiding Shadow Box
+IG_Shadow_2,24131,1     //Hiding Shadow Pendant                  -Hiding Shadow Box
+IG_Shadow_2,24132,1     //Cloaking Shadow Armor                  -Cloaking Shadow Box
+IG_Shadow_2,24133,1     //Cloaking Shadow Shoes                  -Cloaking Shadow Box
+IG_Shadow_2,24134,1     //Cloaking Shadow Shield                 -Cloaking Shadow Box
+IG_Shadow_2,24135,1     //Cloaking Shadow Weapon                 -Cloaking Shadow Box
+IG_Shadow_2,24136,1     //Cloaking Shadow Earring                -Cloaking Shadow Box
+IG_Shadow_2,24137,1     //Cloaking Shadow Pendant                -Cloaking Shadow Box
+IG_Shadow_2,24138,1     //Teleport Shadow Armor                  -Teleport Shadow Box
+IG_Shadow_2,24139,1     //Teleport Shadow Shoes                  -Teleport Shadow Box
+IG_Shadow_2,24140,1     //Teleport Shadow Shield                 -Teleport Shadow Box
+IG_Shadow_2,24141,1     //Teleport Shadow Weapon                 -Teleport Shadow Box
+IG_Shadow_2,24142,1     //Teleport Shadow Earring                -Teleport Shadow Box
+IG_Shadow_2,24143,1     //Teleport Shadow Pendant                -Teleport Shadow Box
+IG_Shadow_2,24144,1     //Steal Shadow Armor                     -Steal Shadow Box
+IG_Shadow_2,24145,1     //Steal Shadow Shoes                     -Steal Shadow Box
+IG_Shadow_2,24146,1     //Steal Shadow Shield                    -Steal Shadow Box
+IG_Shadow_2,24147,1     //Steal Shadow Weapon                    -Steal Shadow Box
+IG_Shadow_2,24148,1     //Steal Shadow Earring                   -Steal Shadow Box
+IG_Shadow_2,24149,1     //Steal Shadow Pendant                   -Steal Shadow Box
+IG_Shadow_2,24150,1     //Infinity Shadow Earring
+IG_Shadow_2,24151,1     //Infinity Shadow Pendant
+IG_Shadow_2,24152,1     //Solid Shadow Weapon
+IG_Shadow_2,24153,1     //Solid Shadow Earring
+IG_Shadow_2,24154,1     //Solid Shadow Armor
+IG_Shadow_2,24155,1     //Solid Shadow Pendant
+IG_Shadow_2,24156,1     //Demi-Human Shadow Weapon
+IG_Shadow_2,24157,1     //Exorcist Shadow Weapon
+IG_Shadow_2,24158,1     //Hunting Shadow Weapon
+IG_Shadow_2,24159,1     //Insect Shadow Weapon
+IG_Shadow_2,24160,1     //Fishing Shadow Weapon
+IG_Shadow_2,24161,1     //Dragon Killer Shadow Weapon
+IG_Shadow_2,24162,1     //Angelus Shadow Weapon
+IG_Shadow_2,24163,1     //Formless Shadow Weapon
+IG_Shadow_2,24164,1     //Holy Water Shadow Weapon
+IG_Shadow_2,24165,1     //Plant Shadow Weapon
+IG_Shadow_2,24166,1     //Penetration Shadow Earring
+IG_Shadow_2,24167,1     //Penetration Shadow Pendant
+IG_Shadow_2,24168,1     //Tempest Shadow Earring
+IG_Shadow_2,24169,1     //Tempest Pendant Shadow
+IG_Shadow_2,24170,1     //Magic Demi-Human Shadow Weapon
+IG_Shadow_2,24171,1     //Magic Exorcist Shadow Weapon
+IG_Shadow_2,24172,1     //Magic Hunting Shadow Weapon
+IG_Shadow_2,24173,1     //Magic Insect Shadow Weapon
+IG_Shadow_2,24174,1     //Magic Fishing Shadow Weapon
+IG_Shadow_2,24175,1     //Magic Dragon Killer Shadow Weapon
+IG_Shadow_2,24176,1     //Magic Angelus Shadow Weapon
+IG_Shadow_2,24177,1     //Magic Formless Shadow Weapon
+IG_Shadow_2,24178,1     //Magic Holy Water Shadow Weapon
+IG_Shadow_2,24179,1     //Magic Caesars Shadow Weapon
+IG_Shadow_2,24180,1     //Bearer's Shadow Armor                  -Bearer's Shadow Box
+IG_Shadow_2,24181,1     //Bearer's Shadow Shoes                  -Bearer's Shadow Box
+IG_Shadow_2,24182,1     //Bearer's Shadow Shield                 -Bearer's Shadow Box
+IG_Shadow_2,24183,1     //Bearer's Shadow Weapon                 -Bearer's Shadow Box
+IG_Shadow_2,24184,1     //Bearer's Shadow Earring                -Bearer's Shadow Box
+IG_Shadow_2,24185,1     //Bearer's Shadow Pendant                -Bearer's Shadow Box
+IG_Shadow_2,24186,1     //Basis Shadow Armor
+IG_Shadow_2,24187,1     //Hallowed Shadow Armor
+IG_Shadow_2,24188,1     //Underneith Shadow Armor
+IG_Shadow_2,24189,1     //Underneath Shadow Armor
+IG_Shadow_2,24190,1     //Flame Shadow Armor
+IG_Shadow_2,24191,1     //Windy Shadow Armor
+IG_Shadow_2,24192,1     //Envenom Shadow Armor
+IG_Shadow_2,24193,1     //Damned Shadow Armor
+IG_Shadow_2,24194,1     //Exorcism Shadow Armor
+IG_Shadow_2,24195,1     //Divine Shadow Armor
+IG_Shadow_2,24196,1     //Hasty Shadow Shoes
+IG_Shadow_2,24197,1     //Hasty Shadow Armor
+IG_Shadow_2,24198,1     //Basis Shadow Shield
+IG_Shadow_2,24199,1     //Hallowed Shadow Shield
+IG_Shadow_2,24200,1     //Saharic Shadow Shield
+IG_Shadow_2,24201,1     //Underneath Shadow Shield
+IG_Shadow_2,24202,1     //Flame Shadow Shield
+IG_Shadow_2,24203,1     //Windy Shadow Shield
+IG_Shadow_2,24204,1     //Envenom Shadow Shield
+IG_Shadow_2,24205,1     //Damned Shadow Shield
+IG_Shadow_2,24206,1     //Exorcism Shadow Shield
+IG_Shadow_2,24207,1     //Divine Shadow Shield
+IG_Shadow_2,24208,1     //Expert Shadow Shoes
+IG_Shadow_2,24209,1     //Expert Shadow Shield
+IG_Shadow_2,24210,1     //Beginner Shadow Shoes
+IG_Shadow_2,24211,1     //Beginner Shadow Shield
+IG_Shadow_2,24212,1     //Rookie Shadow Shoes
+IG_Shadow_2,24213,1     //Rookie Shadow Shield
+IG_Shadow_2,24214,1     //Advanced Shadow Shoes
+IG_Shadow_2,24215,1     //Advanced Shadow Shield
+IG_Shadow_2,24216,1     //Attack Shadow Armor
+IG_Shadow_2,24217,1     //Blitz Shadow Earring
+IG_Shadow_2,24218,1     //Blitz Shadow Pendant
+IG_Shadow_2,24219,1     //Cold Bolt Shadow Armor
+IG_Shadow_2,24220,1     //Fire Bolt Shadow Armor
+IG_Shadow_2,24221,1     //Lightning Bolt Shadow Armor
+IG_Shadow_2,24222,1     //Earth Spike Shadow Armor
+IG_Shadow_2,24223,1     //Enhanced Force Shadow Weapon
+IG_Shadow_2,24224,1     //Force Shadow Weapon
+IG_Shadow_2,24225,1     //Force Shadow Earring
+IG_Shadow_2,24226,1     //Force Shadow Pendant
+IG_Shadow_2,24227,1     //Enhanced Soul Shadow Weapon
+IG_Shadow_2,24228,1     //Soul Shadow Weapon
+IG_Shadow_2,24229,1     //Soul Shadow Earring
+IG_Shadow_2,24230,1     //Soul Shadow Pendant
+IG_Shadow_2,24231,1     //Blitz Shadow Shoes
+IG_Shadow_2,24232,1     //Blitz Shadow Shield
+IG_Shadow_2,24233,1     //Exceeding Shadow Weapon
+IG_Shadow_2,24234,1     //Titan Shadow Earring
+IG_Shadow_2,24235,1     //Titan Shadow Pendant
+IG_Shadow_2,24236,1     //Boned Shadow Earring
+IG_Shadow_2,24237,1     //Boned Shadow Pendant
+IG_Shadow_2,24238,1     //Gigantic Shadow Earring
+IG_Shadow_2,24239,1     //Gigantic Shadow Pendant
+IG_Shadow_2,24240,1     //Caster Shadow Shoes
+IG_Shadow_2,24241,1     //Caster Shadow Shield
+IG_Shadow_2,24242,1     //Caster Shadow Armor
+IG_Shadow_2,24243,1     //Reload Shadow Shoes
+IG_Shadow_2,24244,1     //Reload Shadow Shield
+IG_Shadow_2,24245,1     //Reload Shadow Armor
+
+
+// Miscellaneous Shadow Equipment (Part 2 - Total 90)
+
+IG_Shadow_3,24320,1     //Hasty Shadow Shoes II
+IG_Shadow_3,24321,1     //Bearer's Shadow Pendant II
+IG_Shadow_3,24322,1     //Gemstone Shadow Earring II
+IG_Shadow_3,24323,1     //Spellflow Shadow Shield II
+IG_Shadow_3,24324,1     //Spiritual Shadow Weapon II
+IG_Shadow_3,24325,1     //Malicious Shadow Armor II
+IG_Shadow_3,24326,1     //Sigrun Shadow Armor
+IG_Shadow_3,24327,1     //Sigrun Shadow Shield
+IG_Shadow_3,24328,1     //Force Executioner Shadow Weapon
+IG_Shadow_3,24329,1     //Spirit Magic Executioner Shadow Weapon
+IG_Shadow_3,24330,1     //Caster Shadow Armor II
+IG_Shadow_3,24331,1     //Reload Shadow Armor II
+IG_Shadow_3,24332,1     //Critical Shadow Shield
+IG_Shadow_3,24333,1     //Critical Shadow Shoes
+IG_Shadow_3,24334,1     //Magic Compose Shadow Armor
+IG_Shadow_3,24335,1     //Gemstone Shadow Weapon II
+IG_Shadow_3,24336,1     //Gemstone Shadow Shield II
+IG_Shadow_3,24337,1     //Bearer's Shadow Armor II
+IG_Shadow_3,24338,1     //Bearer's Shadow Shoes II
+IG_Shadow_3,24339,1     //Almighty Shadow Earring
+IG_Shadow_3,24340,1     //Almighty Shadow Pendant
+IG_Shadow_3,24341,1     //All Race Shadow Shoes
+IG_Shadow_3,24342,1     //All Race Shadow Shield
+IG_Shadow_3,24343,1     //Blitz Shadow Weapon
+IG_Shadow_3,24344,1     //Blitz Shadow Armor
+IG_Shadow_3,24345,1     //Tempest Shadow Shield
+IG_Shadow_3,24346,1     //Tempest Shadow Shoes
+IG_Shadow_3,24347,1     //Magic Executioner Holy Water Shadow Armor
+IG_Shadow_3,24348,1     //Magic Exorcist Corrupted Shadow Armor
+IG_Shadow_3,24349,1     //Magic Vibration Dragon Killer Shadow Armor
+IG_Shadow_3,24350,1     //Magic Scissor Hunting Shadow Armor
+IG_Shadow_3,24351,1     //Magic Fishing Insect Net Shadow Armor
+IG_Shadow_3,24352,1     //Plasterer's Shadow Armor II
+IG_Shadow_3,24353,1     //Insomniac Shadow Shoes II
+IG_Shadow_3,24354,1     //Peerless Shadow Armor II
+IG_Shadow_3,24355,1     //Adulate Shadow Shoes II
+IG_Shadow_3,24356,1     //Unfreezing Shadow Weapon II
+IG_Shadow_3,24357,1     //Vitality Shadow Earring II
+IG_Shadow_3,24358,1     //Neutral Shadow Weapon II
+IG_Shadow_3,24359,1     //Uncursed Shadow Pendant II
+IG_Shadow_3,24360,1     //Tension Shadow Weapon
+IG_Shadow_3,24361,1     //Tension Shadow Earring
+IG_Shadow_3,24362,1     //Tension Shadow Pendant
+IG_Shadow_3,24363,1     //Elegant Shadow Weapon
+IG_Shadow_3,24364,1     //Elegant Shadow Earring
+IG_Shadow_3,24365,1     //Elegant Shadow Pendant
+IG_Shadow_3,24366,1     //Healing Shadow Shield
+IG_Shadow_3,24367,1     //Healing Shadow Shoes
+IG_Shadow_3,24368,1     //Restore Shadow Earring
+IG_Shadow_3,24369,1     //Restore Shadow Pendant
+IG_Shadow_3,24370,1     //Mortal Blow Shadow Weapon
+IG_Shadow_3,24371,1     //Mortal Blow Shadow Earring
+IG_Shadow_3,24372,1     //Mortal Blow Shadow Pendant
+IG_Shadow_3,24373,1     //Penetration Shadow Shoes
+IG_Shadow_3,24374,1     //Penetration Shadow Shield
+IG_Shadow_3,24375,1     //Executioner Holy Water Shadow Armor
+IG_Shadow_3,24376,1     //Exorcist Corrupted Shadow Armor
+IG_Shadow_3,24377,1     //Vibration Dragon Killer Shadow Armor
+IG_Shadow_3,24378,1     //Scissor Hunting Shadow Armor
+IG_Shadow_3,24379,1     //Fishing Insect Net Shadow Armor
+IG_Shadow_3,24380,1     //Sentimental Shadow Weapon
+IG_Shadow_3,24381,1     //Sentimental Shadow Earring
+IG_Shadow_3,24382,1     //Sentimental Shadow Pendant
+IG_Shadow_3,24383,1     //Enchanting Shadow Weapon
+IG_Shadow_3,24384,1     //Enchanting Shadow Earring
+IG_Shadow_3,24385,1     //Enchanting Shadow Pendant
+IG_Shadow_3,24386,1     //Infinity Shadow Weapon
+IG_Shadow_3,24387,1     //Beginner's Shadow Armor
+IG_Shadow_3,24388,1     //Beginner's Shadow Shield
+IG_Shadow_3,24389,1     //Beginner's Shadow Shoes
+IG_Shadow_3,24390,1     //Beginner's Shadow Weapon
+IG_Shadow_3,24391,1     //Beginner's Shadow Earring
+IG_Shadow_3,24392,1     //Beginner's Shadow Pendant
+IG_Shadow_3,24393,1     //Physical Shadow Shoes
+IG_Shadow_3,24394,1     //Physical Shadow Shield
+IG_Shadow_3,24395,1     //Physical Shadow Armor
+IG_Shadow_3,24396,1     //Magical Shadow Shoes
+IG_Shadow_3,24397,1     //Magical Shadow Shield
+IG_Shadow_3,24398,1     //Magical Shadow Armor
+IG_Shadow_3,24399,1     //Immune Athena Shadow Shield
+IG_Shadow_3,24400,1     //Hard Champion Shadow Shoes
+IG_Shadow_3,24401,1     //Kingbird Ancient Shadow Armor
+
+IG_Shadow_3,24416,1     //Temporal Transcendent Shadow Weapon
+IG_Shadow_3,24417,1     //Temporal Transcendent Shadow Armor
+IG_Shadow_3,24418,1     //Temporal Transcendent Shadow Shield
+IG_Shadow_3,24419,1     //Temporal Transcendent Shadow Shoes
+IG_Shadow_3,24420,1     //Temporal Transcendent Shadow Earring
+IG_Shadow_3,24421,1     //Temporal Transcendent Shadow Pendant
+
+IG_Shadow_3,24423,1     //Tempest Shadow Weapon
+IG_Shadow_3,24424,1     //Tempest Shadow Armor
